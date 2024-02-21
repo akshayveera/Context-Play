@@ -22,9 +22,9 @@ const CompA = () => {
 
 
   return (
-    <div className='w-[50%] h-40 border-4 border-blue-900 rounded-xl flex flex-col items-center bg-gradient-to-tr from-blue-400 to-blue-200  text-blue-900 '>
+    <div className='w-[50%] h-40 border-4 border-blue-900 rounded-xl flex flex-col items-center justify-stretch bg-gradient-to-tr from-blue-400 to-blue-200  text-blue-900  overflow-hidden'>
         <p className='text-2xl font-bold'>{info.data.nameA}</p>
-        <p className='text-xl font-semibold'>{info.data.textA}</p>
+        <p className='text-xl font-semibold w-[97%]'>{info.data.textA}</p>
     </div>
   )
 }
